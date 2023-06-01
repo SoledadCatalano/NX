@@ -1,5 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(233, 233, 233);
 }
 .nav-nx{
     padding-left: 5%;
@@ -66,10 +67,11 @@ form ::placeholder{
 
 .about-us{
     margin-top: 70px;
-    background: url(../img/fondo.jpg);     
+      
 }
 
-.about-us div{
+.about-us-text{
+    background: url(../img/fondo.jpg);  
     
 }
 .about-us h2 {
