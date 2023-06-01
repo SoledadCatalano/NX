@@ -65,6 +65,25 @@ form ::placeholder{
     line-height: 16px;
 }
 
+.cards-category{
+    margin: 40px 30px;
+}
+.cards-category h2{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #227640;
+}
+
+.card-a{
+    text-decoration:none;
+    
+}
+
+.card-title{
+    text-align: center;
+    font-size: 16px;
+}
+
 .about-us{
     margin-top: 70px;
       
