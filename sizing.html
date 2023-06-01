@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet" href="css/estilos-validar.css">
+    <title>Sizing</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #383838;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="" width="100" height="90"
+                        class="d-inline-block align-text-top"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-nx" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#category-productos">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about-us" tabindex="-1" aria-disabled="true">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal contact -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contact us</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        NX WOODWORKING MACHINERY LLC
+                        <br> 8 The Green Ste, Dover, DE 19901 USA
+                        <br> Call us: +13024871675
+                        <br> Email: sales@nxwoodworking.com
+                    </p>
+                    <form>
+                        <div class="titulo-contacto">
+                            <h2>Complete the form</h2>
+
+                        </div>
+                        <div class="input-container">
+                            <input name="nombre" type="text" id="nombreyapellido" class="input" required
+                                data-tipo="nombre" placeholder="  Name " maxlength="50">
+                            <span class="input-message-error">It's not valid</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input name="email" type="email" id="correo" class="input" required data-tipo="email"
+                                placeholder="  email@domain.com">
+                            <span class="input-message-error">It's not valid</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input name="telefono" type="tel" id="telefono" class="input" required data-tipo="telefono"
+                                placeholder="  Phone" maxlength="50">
+                            <span class="input-message-error">It's not valid</span>
+                        </div>
+
+
+                        <div class="textarea-container">
+                            <textarea name="mensaje" id="mensaje" class="textarea" placeholder="  Your message"
+                                data-tipo="elmensaje" maxlength="300" required></textarea>
+                            <span class="textarea-message-error">It's not valid</span>
+                        </div>
+
+                        <input type="submit" value="Send" class="enviar btn btn-primary">
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--end Modal contact -->
+
+
+    <h3>Front Feed Panel Dividing Saw</h3>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/Sizing/np380d.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NP380D</h5>
+                    <p class="card-text">Integral sawing structure, more stable sawing, 18.5kw main saw motor, suitable
+                        for heavy sawing
+                        Arc guide wheel design, more cutting effect. Imported cable drag chain can move up to a million
+                        times without deformation.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/Sizing/npc330le.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NPC330LE</h5>
+                    <p class="card-text">Bridge type frame made of special steel
+                        The saw car is driven by a servo motor and a rack and pinion drive, which runs smoothly
+                        Equipped with 9 clamps, large cross-section formed aluminum material, precise positioning for
+                        grabbing and pushing materials.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/Sizing/mjb1328b.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MJB1328B</h5>
+                    <p class="card-text">Cutting work could be done by only press button after fixing panel, easy and
+                        fast.
+                        Accurate ruler and guiding device cooperated well to fix work piece in proper position as per
+                        requirement for accurate cutting work.
+                        Stop position of saw carriage could be adjusted by rotating the button based on panel size,
+                        reducing unnecessary travel stroke for higher efficiency.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/Sizing/NZH3318.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NZH3318</h5>
+                    <p class="card-text">Automatic lengthwise and crosswise under desired sequential cutting within the
+                        angular saw in one process, suitable for mass cutting;
+                        Maximum cutting thickness up to 120mm; Selected 18kw Italian main saw motor; Heavy duty rear
+                        feeding hydraulic lifting table;
+                        IPC control center plus Nanxing operation and optimizing software to make the angular saw,
+                        possible for infotech production.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/Sizing/mj1132m.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MJ1132M</h5>
+                    <p class="card-text"> Strong machine body for great stability and longer service life.
+                        Powerful saw motor, easy running sliding table, precise guiding board and tilt adjustment.
+                        Height of saw blade can be adjusted easily by hand wheel.
+                        Main saw and scoring saw can tilt within 0-45°by using hand wheel.
+                        Optional MJ1138M for your choice for cutting max 3.7m panel.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!--footer-->
+
+    <div class="b-example-divider"></div>
+    <div class="container">
+
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="footer-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="footer-item"><a href="index.html#category-productos" class="nav-link px-2 text-muted">Products</a></li>
+                <li class="footer-item"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        class="nav-link px-2 text-muted">Contact</a></li>
+                <li class="footer-item"><a href="index.html#about-us" class="nav-link px-2 text-muted">About us</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; nx woodworking machinery LLC</p>
+        </footer>
+    </div>
+    </div>
+    <!--footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+
+</html>

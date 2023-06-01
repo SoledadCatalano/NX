@@ -2,6 +2,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(233, 233, 233);
 }
+
 .nav-nx{
     padding-left: 5%;
 }
@@ -9,6 +10,7 @@ body{
     color: aliceblue !important;
     margin-right: 50px;
 }
+
 
 .modal-content{
     margin: 18px;
@@ -59,43 +61,13 @@ form ::placeholder{
     line-height: 16px;
 }
 
-.cards-category{
-    margin: 40px 30px;
-}
-.cards-category h2{
+h3{
+    margin: 40px;
     text-align: center;
-    margin-bottom: 40px;
-    color: #227640;
+    color: #1b8b42;
+    font-size: 30px;
 }
-
-.card-a{
-    text-decoration:none;
-    
-}
-
 .card-title{
-    text-align: center;
-    font-size: 16px;
-}
-
-.about-us{
-    margin-top: 70px;
-      
-}
-
-.about-us-text{
-    background: url(../img/fondo.jpg);  
-    
-}
-.about-us h2 {
-    text-align: center; 
-    color: #227640;
-    margin: 15px 0px;  
-}
-.about-us p{
-    margin: 20px 25px;
-}
-.about-us div img{
-  width: 430px;
-  height: 350px;
+ 
+    font-size: 20px;
 }

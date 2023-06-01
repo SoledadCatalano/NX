@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet" href="css/estilos-validar.css">
+    <title>Edge Banding</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #383838;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="" width="100" height="90"
+                        class="d-inline-block align-text-top"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-nx" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#category-productos">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about-us" tabindex="-1" aria-disabled="true">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal contact -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contact us</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        NX WOODWORKING MACHINERY LLC
+                        <br> 8 The Green Ste, Dover, DE 19901 USA
+                        <br> Call us: +13024871675
+                        <br> Email: sales@nxwoodworking.com
+                    </p>
+                    <form>
+                        <div class="titulo-contacto">
+                            <h2>Complete the form</h2>
+
+                        </div>
+                        <div class="input-container">
+                            <input name="nombre" type="text" id="nombreyapellido" class="input" required
+                                data-tipo="nombre" placeholder="  Name " maxlength="50">
+                            <span class="input-message-error">It's not valid</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input name="email" type="email" id="correo" class="input" required data-tipo="email"
+                                placeholder="  email@domain.com">
+                            <span class="input-message-error">It's not valid</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input name="telefono" type="tel" id="telefono" class="input" required data-tipo="telefono"
+                                placeholder="  Phone" maxlength="50">
+                            <span class="input-message-error">It's not valid</span>
+                        </div>
+
+
+                        <div class="textarea-container">
+                            <textarea name="mensaje" id="mensaje" class="textarea" placeholder="  Your message"
+                                data-tipo="elmensaje" maxlength="300" required></textarea>
+                            <span class="textarea-message-error">It's not valid</span>
+                        </div>
+
+                        <input type="submit" value="Send" class="enviar btn btn-primary">
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--end Modal contact -->
+
+
+    <h3>Single Sided Edge Bander</h3>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/edge-banding/nb8pchg.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NB8PCHG</h5>
+                    <p class="card-text">Edge banding and bottom grooving can be done in one process.(optional side, top or skip grooving)
+                        Panels evenly pressed by fiber reinforced V-belt to ensure smooth conveying, clean with no marks, resulting excellent edge banding quality
+                        Pre-melt gluing unit saving heating-up time, reducing the carbonization and vulcanization from burning up of glue resins, also binding better between tape and panel.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/edge-banding/nb6j.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NB6J</h5>
+                    <p class="card-text">Heavy duty machine body and most mechanical machine parts are proceed by advanced CNC machines for higher stability and longer service life without deforming ;
+                        The conveyor stops when the panel exceeds the specified thickness;
+                        Automatic standby, one-button wake-up device and energy saving;
+                        Most electric components are in world famous brand.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/edge-banding/nb5jn.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NB5JN</h5>
+                    <p class="card-text">Heavy duty machine body and most mechanical machine parts are proceed by advanced CNC machines for higher stability and longer service life without deforming ;
+                        Compact press rollers cooperate with additional assistance rollers on front and in between make it possible to do edge banding work for min 30mm work piece in width.
+                        Most electric components are in world famous brand.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/edge-banding/nb5x.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NB5X</h5>
+                    <p class="card-text">With the NB5X you can create on trend cabinets with a ‘finger pull’ profile design. 
+                        This eliminates theneed for additional hardware such as handles. Create angled or inclined edging with twindiamond cutters and twin glue station.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/edge-banding/nb7hs2p.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NB7HS2P</h5>
+                    <p class="card-text"> Heavy duty machine body and most mechanical machine parts are proceed by advanced CNC machines for higher stability and longer service life without deforming ;
+                        Two sides edge banding and bottom grooving can be done in one process.(optional side, top or skip grooving)
+                        Panels evenly pressed by fiber reinforced V-belt to ensure smooth conveying, clean with no marks, resulting excellent edge banding quality</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!--footer-->
+
+    <div class="b-example-divider"></div>
+    <div class="container">
+
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="footer-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="footer-item"><a href="index.html#category-productos" class="nav-link px-2 text-muted">Products</a></li>
+                <li class="footer-item"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        class="nav-link px-2 text-muted">Contact</a></li>
+                <li class="footer-item"><a href="index.html#about-us" class="nav-link px-2 text-muted">About us</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; nx woodworking machinery LLC</p>
+        </footer>
+    </div>
+    </div>
+    <!--footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+
+</html>

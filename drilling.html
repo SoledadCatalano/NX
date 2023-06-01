@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet" href="css/estilos-validar.css">
+    <title>Edge Banding</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #383838;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.svg" alt="" width="100" height="90"
+                        class="d-inline-block align-text-top"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-nx" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#category-productos">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about-us" tabindex="-1" aria-disabled="true">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Modal contact -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Contact us</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        NX WOODWORKING MACHINERY LLC
+                        <br> 8 The Green Ste, Dover, DE 19901 USA
+                        <br> Call us: +13024871675
+                        <br> Email: sales@nxwoodworking.com
+                    </p>
+                    <form>
+                        <div class="titulo-contacto">
+                            <h2>Complete the form</h2>
+
+                        </div>
+                        <div class="input-container">
+                            <input name="nombre" type="text" id="nombreyapellido" class="input" required
+                                data-tipo="nombre" placeholder="  Name " maxlength="50">
+                            <span class="input-message-error">It's not valid</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input name="email" type="email" id="correo" class="input" required data-tipo="email"
+                                placeholder="  email@domain.com">
+                            <span class="input-message-error">It's not valid</span>
+                        </div>
+
+                        <div class="input-container">
+                            <input name="telefono" type="tel" id="telefono" class="input" required data-tipo="telefono"
+                                placeholder="  Phone" maxlength="50">
+                            <span class="input-message-error">It's not valid</span>
+                        </div>
+
+
+                        <div class="textarea-container">
+                            <textarea name="mensaje" id="mensaje" class="textarea" placeholder="  Your message"
+                                data-tipo="elmensaje" maxlength="300" required></textarea>
+                            <span class="textarea-message-error">It's not valid</span>
+                        </div>
+
+                        <input type="submit" value="Send" class="enviar btn btn-primary">
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--end Modal contact -->
+
+
+    <h3>CNC 6-sided Drilling Machine</h3>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/drilling/ncb612dtxt.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NCB612DXT</h5>
+                    <p class="card-text">NCB612DT integrates drilling, grooving, simple routing, and Lamello processing provide ideal solution for invisible hardware or Lamello users.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/drilling/n2508.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">N2508</h5>
+                    <p class="card-text">Auto Boring Line (ABL) N2508 is a continuous boring CNC convenient for various batch sizes,
+                         with high efficiency, accuracy, flexibility, and more advantages in production. It is particularly suitable for
+                          boring non standard products for lowing production cost and shortening production cycle that is one of the best choices for customized orders.
+                           This ABL and the relevant furniture software can be linked without extra set up work, boring 4 sides in one process. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/drilling/ncp3312z2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NCP3312Z2</h5>
+                    <p class="card-text">CNC with pod and rail table NCP3312Z2 is one of the machines must be used for the customized orders by furniture companies.
+                         This machine and the relevant furniture software can be linked without extra set up work, boring 5 sides and routing on top side in one process, 
+                         also two working stations alternatively processing making production higher efficient. Moving axis X, Y, Z and change of tools are controlled by servo motors.
+                          Machine is designed with an open port to FCC software, easy to chase shapes of panels on drawing and their processing status, edit shapes, show data info of the order, and more functions.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="img/drilling/ncb2806d.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">NCB2806D</h5>
+                    <p class="card-text">Two main spindles for side boring and grooving
+                        Side boring could be done automatically according to the hole position on top by using laser detector, reorganization is accurate even suitable for work piece in different color, thus improving the productivity.
+                        3 working stations max. process three work pieces in one cycle.
+                        7’’ simple touch operation interface, easy to operate.
+                    </p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <!--footer-->
+
+    <div class="b-example-divider"></div>
+    <div class="container">
+
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="footer-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="footer-item"><a href="index.html#category-productos" class="nav-link px-2 text-muted">Products</a></li>
+                <li class="footer-item"><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        class="nav-link px-2 text-muted">Contact</a></li>
+                <li class="footer-item"><a href="index.html#about-us" class="nav-link px-2 text-muted">About us</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; nx woodworking machinery LLC</p>
+        </footer>
+    </div>
+    </div>
+    <!--footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+
+</html>
