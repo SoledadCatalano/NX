@@ -9,16 +9,9 @@ body{
     color: aliceblue !important;
     margin-right: 50px;
 }
-
-.contacto{
-    width: 360px;
-    height: 600px;
-    padding: 0px 10px 0px 0px;
-    gap: 10px;   
-}    
-.contacto img{
-    display: none;
-}   
+.modal-content{
+    margin: 18px;
+}
 form{
     display: flex;
     flex-direction: column;
