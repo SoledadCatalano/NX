@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/estilos-validar.css">
+
+
+  <title>NX Woodworking Machinery LLC</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #383838;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/img/logo.svg" alt="" width="100" height="90"
+            class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-nx" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Contact
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us" tabindex="-1" aria-disabled="true">About us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- begin Carousel-->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/carousel/carousel1.png" class="d-block w-100" alt="carousel1">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/carousel/carousel2.png" class="d-block w-100" alt="carousel2">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/carousel/carousel3.png" class="d-block w-100" alt="carousel3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--end carousel-->
+
+
+  <!-- Modal contact -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Contact us</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            NX WOODWORKING MACHINERY LLC
+            <br> 8 The Green Ste, Dover, DE 19901 USA
+            <br> Call us: +13024871675
+            <br> Email: sales@nxwoodworking.com
+          </p>
+          <form>
+            <div class="titulo-contacto">
+              <h2>Complete the form</h2>
+
+            </div>
+            <div class="input-container">
+              <input name="nombre" type="text" id="nombreyapellido" class="input" required data-tipo="nombre"
+                placeholder="  Name " maxlength="50">
+              <span class="input-message-error">It's not valid</span>
+            </div>
+
+            <div class="input-container">
+              <input name="email" type="email" id="correo" class="input" required data-tipo="email"
+                placeholder="  email@domain.com">
+              <span class="input-message-error">It's not valid</span>
+            </div>
+
+            <div class="input-container">
+              <input name="telefono" type="tel" id="telefono" class="input" required data-tipo="telefono"
+                placeholder="  Phone" maxlength="50">
+              <span class="input-message-error">It's not valid</span>
+            </div>
+
+
+            <div class="textarea-container">
+              <textarea name="mensaje" id="mensaje" class="textarea" placeholder="  Your message" data-tipo="elmensaje"
+                maxlength="300" required></textarea>
+              <span class="textarea-message-error">It's not valid</span>
+            </div>
+
+            <input type="submit" value="Send" class="enviar btn btn-primary">
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--About us start-->
+
+  <div class="container about-us" id="about-us">
+    <div class="row">
+      <div class="col-4">
+        <img src="/img/about-us.png" alt="">
+      </div>
+      <div class="col-8">
+        <h2>About Us</h2>
+        <p> NX Woodworking Machinery LLC, is a company specializing in providing equipment and total solutions for the
+          production of panel furniture, including CNC nesting machines, panel saws, edgers, CNC boring machines, CNC
+          through-feed drilling machines... . etc. which can form production lines and Industry 4.0 lines according to the
+          various requirements.
+        </p>
+        <p> We have the best CNC and robotic machines in the world.
+        </p>
+        <p> We have a specialized team to provide you with the best advice, to optimize your purchase.</p></div>
+    </div>
+  </div>
+
+
+  <!--About us end-->
+
+  <!--footer-->
+
+  <div class="b-example-divider"></div>
+  <div class="container">
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="footer-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="footer-item"><a href="#" class="nav-link px-2 text-muted">Products</a></li>
+        <li class="footer-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+        <li class="footer-item"><a href="#" class="nav-link px-2 text-muted">About us</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; nx woodworking machinery LLC</p>
+    </footer>
+  </div>
+  </div>
+  <!--footer-->
+  <script src="/js/app.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
